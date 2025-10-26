@@ -95,7 +95,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 - Help tooltips explaining visual elements
 
 ### 4. Employee's Performance
-![Employees_Performance](Employeess_Performance.png)
+![Employee Performance](Employees_Performance.png)
 
 **Key Features:**
 - **Employee search functionality** for quick lookup
