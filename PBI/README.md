@@ -15,7 +15,6 @@ An interactive business intelligence dashboard analyzing customer support operat
 - `offices` table - Office locations
 - `channels` table - Country/region codes (Greece, Cyprus, Malta)
 - `teamleaders` table - Team management hierarchy
--  `cte_rnk` common table expression - Calculation to extract the 'Employee of the month within SQL'
 
 ### Power BI Enhancements
 
@@ -96,7 +95,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 - Help tooltips explaining visual elements
 
 ### 4. Employee's Performance
-![Employee Performance](Employee's Performance.png)
+![Employee Performance](Employees_Performance.png)
 
 **Key Features:**
 - **Employee search functionality** for quick lookup
