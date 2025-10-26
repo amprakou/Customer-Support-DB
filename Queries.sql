@@ -321,6 +321,8 @@ MONTH(t.created_datetime))
 
 SELECT *
 FROM rnk_cte rn
-WHERE rn.rnk = 1 AND rn.[Month] = 'March' AND rn.YEAR = 2024;
+WHERE rn.rnk = 1 
+-- AND rn.Month = 'March' AND rn.YEAR = 2024;
+
 
 
