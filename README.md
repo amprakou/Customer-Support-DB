@@ -1,11 +1,12 @@
 # Customer-Support-DB
 
-A SQL Server database for analyzing customer support operations, employee performance and ticket metrics including five core tables :
-•	Offices – Physical office locations 
-•	Channels – Geographic regions or countries from which tickets are received.
-•	Teamleaders – Team management and supervisory information.
-•	Employees – Personnel records and employee information for rb.company.
-•	Tickets – Support ticket transactions and related operational data.
+A SQL Server database for analyzing customer support operations, employee performance and ticket metrics including five core tables:
+
+- Offices – Physical office locations  
+- Channels – Geographic regions or countries from which tickets are received  
+- Teamleaders – Team management and supervisory information  
+- Employees – Personnel records and employee information for rb.company  
+- Tickets – Support ticket transactions and related operational data
 
 
                                                       Database Features :
