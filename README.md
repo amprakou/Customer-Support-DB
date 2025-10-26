@@ -8,6 +8,14 @@ A SQL Server database for analyzing customer support operations, employee perfor
 - Employees – Personnel records and employee information for rb.company  
 - Tickets – Support ticket transactions and related operational data
 
+- ## Database Views
+
+### emp_details
+Employee analytics view with pre-calculated demographics including age groups, employment status (Active/Inactive), work type (On Site/Remote), and tenure ranges for workforce analysis and retention reporting.
+
+### ticket_rep
+Ticket analytics view with time-based segmentation (hourly and time-of-day periods), CSAT score translations, performance metrics (FRT in minutes), and resolution tracking for operational dashboards.
+
 
 ## Terminology
 
