@@ -15,6 +15,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 - `offices` table - Office locations
 - `channels` table - Country/region codes (Greece, Cyprus, Malta)
 - `teamleaders` table - Team management hierarchy
+-  `cte_rnk` common table expression - Calculation to extract the 'Employee of the month within SQL'
 
 ### Power BI Enhancements
 
@@ -35,6 +36,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 ## Dashboard Pages
 
 ### 1. MED Support Overview
+![MED Support Overview](Overview.png)
 
 **Country-Level Analysis for Cyprus, Greece, and Malta:**
 - Total Tickets with % MoM change
@@ -50,6 +52,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 ---
 
 ### 2. Insights
+![Insights Dashboard](Insights.png)
 
 **Key Metrics with MoM indicators:**
 - Total Tickets
@@ -71,6 +74,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 ---
 
 ### 3. Day/Hour Analysis (Time Analysis)
+![Time Analysis](Time Analysis.png)
 
 **Key Metrics with MoM indicators:**
 - Total Tickets
@@ -92,6 +96,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 - Help tooltips explaining visual elements
 
 ### 4. Employee's Performance
+![Employee Performance](Employee's Performance.png)
 
 **Key Features:**
 - **Employee search functionality** for quick lookup
