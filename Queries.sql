@@ -1,6 +1,5 @@
  ------------------------------------------------------------------------------- Data validation in comparison with PBI results -------------------------------------------------------------------------------
  --Extracting min-max date from hire_date and ticket creation for PBI DATE TABLE.
-
 SELECT MIN(created_datetime) min_ticket , 
 MAX(created_datetime) max_ticket FROM tickets
 
@@ -323,4 +322,5 @@ MONTH(t.created_datetime))
 SELECT *
 FROM rnk_cte rn
 WHERE rn.rnk = 1 AND rn.[Month] = 'March' AND rn.YEAR = 2024;
+
 
