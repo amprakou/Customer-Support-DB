@@ -74,7 +74,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 ---
 
 ### 3. Day/Hour Analysis (Time Analysis)
-![Time Analysis](Time Analysis.png)
+![Time Analysis](Time_Analysis.png)
 
 **Key Metrics with MoM indicators:**
 - Total Tickets
