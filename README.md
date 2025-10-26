@@ -9,16 +9,6 @@ A SQL Server database for analyzing customer support operations, employee perfor
 - Tickets – Support ticket transactions and related operational data
 
 
-                                                      Database Features :
-  Data Integrity
-•	Foreign key relationships across all entities
-•	Check constraints for data validation
-•	Email domain validation
-
-  Performance Optimization
-•	Non-clustered indexes on foreign key columns
-•	Optimized for reporting queries
-
 ## Terminology
 
 | Term | Description |
