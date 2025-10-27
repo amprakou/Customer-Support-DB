@@ -115,5 +115,8 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 ## Interactive Features
 
-- **Custom Filter Menu**: Bookmark-driven navigation with slicers for Year, Month, Quarter, Specific Dates, Channel, and Work Type to enable deeper analysis
+- **Custom Filter Menu**: Bookmark-driven navigation with slicers for Year, Month, Quarter, Specific Dates, Channel to enable deeper analysis
+![Filter Menu](.images/filter_menu.png)
+
+
 - **Contextual Help Tooltips**: Interactive buttons providing detailed explanations of heatmap color gradient interpretations
