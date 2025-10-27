@@ -1,4 +1,4 @@
-# Customer-Support-DB
+# Customer Support Database
 
 A SQL Server database for analyzing customer support operations, employee performance and ticket metrics. The idea came up from a company I was working for in the past, and the way that team leaders used to evaluate us at the end of the month.
 
