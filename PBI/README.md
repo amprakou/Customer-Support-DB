@@ -4,7 +4,8 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 ## Data Model
 
-![Data Model](model_BI.png)
+![Data Model](.images/model_BI.png)
+
 
 ## Data Architecture
 
@@ -95,7 +96,8 @@ An interactive business intelligence dashboard analyzing customer support operat
 - Help tooltips explaining visual elements
 
 ### 4. Employee's Performance
-![Employee Performance](Employees_Performance.png)
+![Employee Performance](.images/Employees_Performance.png)
+
 
 **Key Features:**
 - **Employee search functionality** for quick lookup
