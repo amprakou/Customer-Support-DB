@@ -10,7 +10,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 ### Data Sources
 
-**SQL Server Database (DBSupp_BI)**
+**SQL Server Database (DBSupp_BI,connected to Power BI in Import Mode)**
 - `emp_details` view - Employee demographics and analytics
 - `ticket_rep` view - Enhanced ticket metrics with time segmentation
 - `offices` table - Office locations
