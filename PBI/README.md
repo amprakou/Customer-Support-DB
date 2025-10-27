@@ -78,7 +78,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 - Average HT (minutes)
 - Rated Tickets
 
-**Time-Based Analytics:**
+**Analytics:**
 - **# of tickets per Hour Range**: Heatmap matrix showing volume by day of week (Sun-Sat) and hour (Interactive help button describes the meaning of gradient colors)
   - Morning (6am-12pm) with hourly breakdown
   - Afternoon (12pm-5pm) with hourly breakdown
@@ -107,7 +107,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 **Employee of the Month Spotlight:**
 - Highlighted top performer with name, HT, and CSAT metrics
 
-**Trend Analysis:**
+**Analytics:**
 - **Over Month CSAT's Progress**: Line chart comparing current month average CSAT with previous month across the year
 - **Over Month HT's Progress**: Line chart comparing current month average handling time with previous month trends
 
@@ -115,6 +115,5 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 ## Interactive Features
 
-**Global Capabilities:**
 - **Custom Filter Menu**: Bookmark-driven navigation with slicers for Year, Month, Quarter, Specific Dates, Channel, and Work Type to enable deeper analysis
 - **Contextual Help Tooltips**: Interactive buttons providing detailed explanations of heatmap color gradient interpretations
