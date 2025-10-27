@@ -56,7 +56,7 @@ RETURN
 DIVIDE(resolved_tickets, [Total Tickets], 0)
 ```
 
-### Selected Period
+### Selected Period(text)
 ```dax
 Selected Period = 
 VAR SelectedMonth = SELECTEDVALUE('Datetable'[Month])
