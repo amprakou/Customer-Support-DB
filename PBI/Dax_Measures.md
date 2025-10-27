@@ -172,17 +172,3 @@ ADDCOLUMNS(
     "Day Number", WEEKDAY([Date])
 )
 ```
-
-## Data Model
-
-### Tables
-- `ticket_rep`: Ticket repository containing ticket details
-- `emp_details`: Employee details
-- `DateTable`: Calendar dimension table
-
-### Key Columns
-- `ticket_rep[CSAT]`: Customer Satisfaction Score
-- `ticket_rep[FRT_MINS]`: First Response Time in minutes
-- `ticket_rep[handling_time_min]`: Handling time in minutes
-- `ticket_rep[status]`: Ticket status
-- `ticket_rep[created_datetime]`: Ticket creation timestamp
