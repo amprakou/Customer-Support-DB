@@ -6,10 +6,10 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 ![Data Model](.images/model_BI.png)
 
-
 ## Data Architecture
 
 ### Data Sources
+
 **SQL Server Database (DBSupp_BI)**
 - `emp_details` view - Employee demographics and analytics
 - `ticket_rep` view - Enhanced ticket metrics with time segmentation
@@ -30,29 +30,26 @@ An interactive business intelligence dashboard analyzing customer support operat
 - **Performance Metrics**: Average FRT, Average HT, Total/Rated Tickets
 - **CSAT Calculations**: Average CSAT with trend analysis
 - **Trend Analysis**: MoM percentage changes for all key metrics
-- **Employee Rankings**: Top performers by HT and CSAT
 - **Time Segmentation**: Hourly and time-of-day aggregations
 
 ## Dashboard Pages
 
 ### 1. MED Support Overview
-![MED Support Overview](Overview.png)
+
+![MED Support Overview](.images/Overview.png)
 
 **Country-Level Analysis for Cyprus, Greece, and Malta:**
 - Total Tickets with % MoM change
 - Average Handling Time (minutes)
-- Average CSAT score
+- Average CSAT score displayed as gauge chart with deviation from target
 - Weekly trend sparklines
 - **Most Frequent Issues** with bookmark toggle between Top 3 and Bottom 3
-
-**Interactive Features:**
-- Custom filter menu (bookmarks) for focused analysis
-- Toggle between Top 3 and Bottom 3 issues per country
 
 ---
 
 ### 2. Insights
-![Insights Dashboard](Insights.png)
+
+![Insights Dashboard](.images/Insights.png)
 
 **Key Metrics with MoM indicators:**
 - Total Tickets
@@ -65,16 +62,14 @@ An interactive business intelligence dashboard analyzing customer support operat
 - **vs Previous Month # of tickets by tag**: Comparison showing volume changes across issue categories
 - **vs Previous Month CSAT by tag**: Performance variation across different issue types
 - **vs Previous Month Handling Time by tag**: Efficiency analysis per ticket category
-- **CSAT'S impact from HT**: Heatmap showing satisfaction scores based on handling time ranges (<=5min, 5-10min, 10-20min, 20-30min, 30-40min, 40-50min)
-- **Total Tickets by CSAT Category**: Donut chart distribution (Not Rated, Very Satisfied, Satisfied, Neutral, Unsatisfied, Very Unsatisfied)
-
-**Interactive Features:**
-- Custom filter menu (bookmarks) for deeper analysis
+- **CSAT's Impact from Handling Time**: Heatmap showing satisfaction scores across handling time ranges
+- **Total Tickets by CSAT Category**: Donut chart distribution
 
 ---
 
 ### 3. Day/Hour Analysis (Time Analysis)
-![Time Analysis](Time_Analysis.png)
+
+![Time Analysis](.images/Time_Analysis.png)
 
 **Key Metrics with MoM indicators:**
 - Total Tickets
@@ -84,20 +79,18 @@ An interactive business intelligence dashboard analyzing customer support operat
 - Rated Tickets
 
 **Time-Based Analytics:**
-- **# of tickets per Hour Range**: Heatmap matrix showing volume by day of week (Sun-Sat) and hour (help button describes the meaning of gradient colors)
+- **# of tickets per Hour Range**: Heatmap matrix showing volume by day of week (Sun-Sat) and hour (Interactive help button describes the meaning of gradient colors)
   - Morning (6am-12pm) with hourly breakdown
   - Afternoon (12pm-5pm) with hourly breakdown
   - Evening (5pm-9pm) with hourly breakdown
 - **Total Tickets and Avg CSAT by Time Segment**: Dual-axis line chart showing volume vs satisfaction trends across Morning, Afternoon, and Evening periods
 - **Total Tickets and Avg HT by Time Segment**: Dual-axis line chart showing volume vs handling time patterns throughout the day
 
-**Interactive Features:**
-- Custom filter menu (bookmarks) for time period selection
-- Help tooltips explaining visual elements
+---
 
 ### 4. Employee's Performance
-![Employee Performance](.images/Employees_Performance.png)
 
+![Employee Performance](.images/Employees_Performance.png)
 
 **Key Features:**
 - **Employee search functionality** for quick lookup
@@ -118,7 +111,10 @@ An interactive business intelligence dashboard analyzing customer support operat
 - **Over Month CSAT's Progress**: Line chart comparing current month average CSAT with previous month across the year
 - **Over Month HT's Progress**: Line chart comparing current month average handling time with previous month trends
 
-**Interactive Features:**
-- Custom filter menu (bookmarks) for employee filtering
-- Search box for quick employee lookup
-- Help tooltips explaining performance metrics
+---
+
+## Interactive Features
+
+**Global Capabilities:**
+- **Custom Filter Menu**: Bookmark-driven navigation with slicers for Year, Month, Quarter, Specific Dates, Channel, and Work Type to enable deeper analysis
+- **Contextual Help Tooltips**: Interactive buttons providing detailed explanations of heatmap color gradient interpretations
