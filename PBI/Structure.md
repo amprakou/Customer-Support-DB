@@ -16,6 +16,8 @@ An interactive business intelligence dashboard analyzing customer support operat
 - `offices` table - Office locations
 - `channels` table - Country/region codes (Greece, Cyprus, Malta)
 - `teamleaders` table - Team management hierarchy
+> ** DISCLAIMER**: This project uses entirely fictional data. All names, employee records, ticket information, performance metrics, and other data points are synthetically generated and do not represent any real individuals, companies, or actual business operations.
+
 
 ### Power BI Enhancements
 
@@ -23,8 +25,6 @@ An interactive business intelligence dashboard analyzing customer support operat
 - **DateTable** - Calendar dimension for time-based analysis and MoM comparisons
 - **HourTable** - Hour dimension for granular time-of-day workload analysis
 
-**Data Modeling:**
-- Configured relationships between fact and dimension tables using star schema
 
 **DAX Measures:**
 - **Performance Metrics**: Average FRT, Average HT, Total/Rated Tickets
