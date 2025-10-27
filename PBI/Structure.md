@@ -120,3 +120,4 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 
 - **Contextual Help Tooltips**: Interactive buttons providing detailed explanations of heatmap color gradient interpretations
+  ![ tooltip](.images/tooltip.png)
