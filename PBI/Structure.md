@@ -80,11 +80,11 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 **Analytics:**
 - **# of tickets per Hour Range**: Heatmap matrix showing volume by day of week (Sun-Sat) and hour (Interactive help button describes the meaning of gradient colors)
-  - Morning (6am-12pm) with hourly breakdown
-  - Afternoon (12pm-5pm) with hourly breakdown
-  - Evening (5pm-9pm) with hourly breakdown
-  - **Total Tickets and Avg CSAT by Time Segment**: Dual-axis line chart showing volume vs satisfaction trends across Morning, Afternoon, and Evening periods (with drill-down capability to hourly breakdown)
-  - **Total Tickets and Avg HT by Time Segment**: Dual-axis line chart showing volume vs handling time patterns throughout the day (with drill-down capability to  hourly breakdown)
+- Morning (6am-12pm) with hourly breakdown
+- Afternoon (12pm-5pm) with hourly breakdown
+- Evening (5pm-9pm) with hourly breakdown
+- **Total Tickets and Avg CSAT by Time Segment**: Dual-axis line chart showing volume vs satisfaction trends across Morning, Afternoon, and Evening periods (with drill-down capability to hourly breakdown)
+- **Total Tickets and Avg HT by Time Segment**: Dual-axis line chart showing volume vs handling time patterns throughout the day (with drill-down capability to  hourly breakdown)
 
 ---
 
