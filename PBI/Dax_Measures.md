@@ -1,4 +1,4 @@
-# Power BI DAX Measures Documentation
+# Power BI DAX Measures
 
 ## Average Values
 
