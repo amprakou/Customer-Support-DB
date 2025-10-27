@@ -1,1 +1,0 @@
-> **DISCLAIMER**: This project uses entirely fictional data. All names, employee records, ticket information, performance metrics, and other data points are synthetically generated and do not represent any real individuals, companies, or actual business operations.
