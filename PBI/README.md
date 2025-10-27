@@ -67,7 +67,7 @@ An interactive business intelligence dashboard analyzing customer support operat
 
 ---
 
-### 3. Day/Hour Analysis (Time Analysis)
+### 3. Time Analysis
 
 ![Time Analysis](.images/Time_Analysis.png)
 
@@ -83,8 +83,8 @@ An interactive business intelligence dashboard analyzing customer support operat
   - Morning (6am-12pm) with hourly breakdown
   - Afternoon (12pm-5pm) with hourly breakdown
   - Evening (5pm-9pm) with hourly breakdown
-- **Total Tickets and Avg CSAT by Time Segment**: Dual-axis line chart showing volume vs satisfaction trends across Morning, Afternoon, and Evening periods
-- **Total Tickets and Avg HT by Time Segment**: Dual-axis line chart showing volume vs handling time patterns throughout the day
+  - **Total Tickets and Avg CSAT by Time Segment**: Dual-axis line chart showing volume vs satisfaction trends across Morning, Afternoon, and Evening periods (with drill-down capability to hourly breakdown)
+  - **Total Tickets and Avg HT by Time Segment**: Dual-axis line chart showing volume vs handling time patterns throughout the day (with drill-down capability to  hourly breakdown)
 
 ---
 
