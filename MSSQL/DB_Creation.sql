@@ -42,6 +42,7 @@ CREATE TABLE employees (
     term_reason VARCHAR(40),
     leader_id INT NOT NULL,
     office_id INT NOT NULL,
+    is_remote BIT DEFAULT 0,
     channel_code CHAR(3) NOT NULL,
     CONSTRAINT check_gender CHECK (gender IN ('M','F')),
     CONSTRAINT check_term_reason CHECK (
@@ -160,3 +161,4 @@ END AS resolved_datetime,
 CAST([first_response_sec] / 60.0 AS DECIMAL(10,2)) AS FRT_MINS
 FROM [dbo].[tickets] 
 GO
+
